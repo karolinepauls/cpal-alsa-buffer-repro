@@ -1,0 +1,9 @@
+[package]
+name = "beep"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.104"
+clap = { version = "4.6.7", features = ["derive"] }
+cpal = { git = "https://github.com/RustAudio/cpal.git", rev = "79275c2313da30e9f8b1ad8168385d091a2c9ada" }
